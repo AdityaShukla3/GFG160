@@ -1,3 +1,4 @@
+import java.util.*;
 class Solution {
     public ArrayList<Integer> findMajority(int[] arr) {
         // Code here
@@ -15,4 +16,5 @@ class Solution {
         Collections.sort(list);
         return list;
     }
+    
 }
